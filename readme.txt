@@ -88,12 +88,12 @@ SendGrid account credentials.
 
 == Screenshots ==
 
-1. Go to Admin Panel, section Plugins and activate the SendGrid plugin. If you want to send emails through SMTP you need to install also the 'Swift Mailer' plugin. screenshot-1.png.
-2. After activation "Settings" link will appear. screenshot-2.png.
-3. Go to settings page and provide your SendGrid credentials. On this page you can set also the default "Name", "Sending Address" and "Reply Address". screenshot-3.png.
-4. If you provide valid credentials, a form which can be used to send test emails will appear. Here you can test the plugin sending some emails. screenshot-4.png.
-5. Header provided in the send test email form. screenshot-5.png
-6. If you click in the right corner from the top of the page on the "Help" button, a popup window. screenshot-6.png
+1. Go to Admin Panel, section Plugins and activate the SendGrid plugin. If you want to send emails through SMTP you need to install also the 'Swift Mailer' plugin.
+2. After activation "Settings" link will appear.
+3. Go to settings page and provide your SendGrid credentials. On this page you can set also the default "Name", "Sending Address" and "Reply Address".
+4. If you provide valid credentials, a form which can be used to send test emails will appear. Here you can test the plugin sending some emails.
+5. Header provided in the send test email form.
+6. If you click in the right corner from the top of the page on the "Help" button, a popup window.
 
 == Changelog ==
 
