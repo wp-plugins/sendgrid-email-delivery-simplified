@@ -4,7 +4,7 @@ Donate link: http://sendgrid.com/
 Tags: email, email reliability, email templates, sendgrid, smtp, transactional email, wp_mail,email infrastructure, email marketing, marketing email, deliverability, email deliverability, email delivery, email server, mail server, email integration, cloud email
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 1.0
+Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,9 +16,9 @@ SendGrid's cloud-based email infrastructure relieves businesses of the cost and 
 
 The SendGrid plugin uses SMTP or API integration to send outgoing emails from your WordPress installation. It replaces the wp_mail function included with WordPress. 
 
-To have the SendGrid plugin running after you have activated it, go to the plugin’s settings page and set the SendGrid credentials, and the way your email will be sent through SMTP or API.
+To have the SendGrid plugin running after you have activated it, go to the plugin's settings page and set the SendGrid credentials, and the way your email will be sent through SMTP or API.
 
-You can also set default values for the “Name”, “Sending Address” and the “Reply Address”, so that you don’t need to set these headers every time you want to send and email from your application.
+You can also set default values for the "Name", "Sending Address" and the "Reply Address", so that you don't need to set these headers every time you want to send and email from your application.
 
 Emails are tracked and automatically tagged for statistics within the SendGrid Dashboard. You can also add general tags to every email sent, as well as particular tags based on selected emails defined by your requirements. 
 
@@ -71,14 +71,14 @@ To upload the SendGrid Plugin .ZIP file:
 
 1. Upload the WordPress SendGrid Plugin to the /wp-contents/plugins/ folder.
 2. Activate the plugin from the "Plugins" menu in WordPress.
-3. Navigate to "Settings" › "SendGrid Settings" and enter your SendGrid credentials
+3. Navigate to "Settings" -> "SendGrid Settings" and enter your SendGrid credentials
 
 To auto install the SendGrid Plugin from the WordPress admin:
 
-1. Navigate to "Plugins" › "Add New"
-2. Search for "SendGrid Plugin" and click "Install Now" for the "SendGrid Plugin” listing
+1. Navigate to "Plugins" -> "Add New"
+2. Search for "SendGrid Plugin" and click "Install Now" for the "SendGrid Plugin" listing
 3. Activate the plugin from the "Plugins" menu in WordPress, or from the plugin installation screen.
-4. Navigate to "Settings" › "SendGrid Settings" and enter your SendGrid credentials
+4. Navigate to "Settings" -> "SendGrid Settings" and enter your SendGrid credentials
 
 == Frequently asked questions ==
 
