@@ -16,6 +16,8 @@ SendGrid's cloud-based email infrastructure relieves businesses of the cost and 
 
 The SendGrid plugin uses SMTP or API integration to send outgoing emails from your WordPress installation. It replaces the wp_mail function included with WordPress. 
 
+First, you need to have PHP-curl extension enabled. To send emails through SMTP you need to install also the 'Swift Mailer' plugin. After installing 'Swift Mailer' plugin, you must have PHP-short_open_tag setting enabled in your php.ini file.
+
 To have the SendGrid plugin running after you have activated it, go to the plugin's settings page and set the SendGrid credentials, and how your email will be sent - either through SMTP or API.
 
 You can also set default values for the "Name", "Sending Address" and the "Reply Address", so that you don't need to set these headers every time you want to send an email from your application.
@@ -98,6 +100,7 @@ SendGrid account credentials.
 == Changelog ==
 
 = 1.0 =
+* Fixed issue: Add error message when PHP-curl extension is not enabled.
 
 == Upgrade notice ==
 
