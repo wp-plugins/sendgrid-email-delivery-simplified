@@ -4,7 +4,7 @@ Donate link: http://sendgrid.com/
 Tags: email, email reliability, email templates, sendgrid, smtp, transactional email, wp_mail,email infrastructure, email marketing, marketing email, deliverability, email deliverability, email delivery, email server, mail server, email integration, cloud email
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: trunk
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -96,12 +96,16 @@ SendGrid account credentials.
 4. If you provide valid credentials, a form which can be used to send test emails will appear. Here you can test the plugin sending some emails. 
 5. Header provided in the send test email form. 
 6. If you click in the right corner from the top of the page on the "Help" button, a popup window with more information will appear. 
+7. Select the time interval for which you want to see SendGrid statistics and charts.
 
 == Changelog ==
 
 = 1.0 =
 * Fixed issue: Add error message when PHP-curl extension is not enabled.
+= 1.1 =
+* Added SendGrid Statistics 
 
 == Upgrade notice ==
 
-= 1.0 =
+= 1.1 =
+* SendGrid Statistics can be used by selecting the time interval for which you want to see your statistics.
