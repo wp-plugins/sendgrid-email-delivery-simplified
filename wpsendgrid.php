@@ -421,3 +421,4 @@ add_filter('contextual_help', 'showContextualHelp', 10, 2);
 function set_html_content_type()
 {
 	return 'text/html';
+}
