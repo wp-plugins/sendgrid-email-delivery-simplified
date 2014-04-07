@@ -70,7 +70,8 @@ remove_filter('wp_mail_content_type', 'set_html_content_type');`
 == Installation ==
 
 Requirements:
-1. PHP version >= 5.3.0
+
+1. PHP version >= 5.3.0.
 2. You need to have PHP-curl extension enabled.
 3. To send emails through SMTP you need to install also the 'Swift Mailer' plugin. After installing 'Swift Mailer' plugin, you must have PHP-short_open_tag setting enabled in your php.ini file.
 
