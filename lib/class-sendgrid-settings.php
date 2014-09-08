@@ -95,15 +95,19 @@ class Sendgrid_Settings
 
         $reply_to = $_POST['sendgrid_reply_to'];
         update_option( 'sendgrid_reply_to', $reply_to );
+
+        $categories = $_POST['sendgrid_categories'];
+        update_option( 'sendgrid_categories', $categories );
       }
     }
     
-    $user     = get_option('sendgrid_user');
-    $password = get_option('sendgrid_pwd');
-    $method   = get_option('sendgrid_api');
-    $name     = get_option('sendgrid_from_name');
-    $email    = get_option('sendgrid_from_email');
-    $reply_to = get_option('sendgrid_reply_to');
+    $user       = get_option('sendgrid_user');
+    $password   = get_option('sendgrid_pwd');
+    $method     = get_option('sendgrid_api');
+    $name       = get_option('sendgrid_from_name');
+    $email      = get_option('sendgrid_from_email');
+    $reply_to   = get_option('sendgrid_reply_to');
+    $categories = get_option('sendgrid_categories');
 
     $valid_credentials = false;
     if ( $user and $password )

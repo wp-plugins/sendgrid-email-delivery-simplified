@@ -63,6 +63,15 @@
             <p class="description"><?php _e('Email address where replies will be returned.') ?></p>
           </td>
         </tr>
+        <tr valign="top">
+          <th scope="row"><?php _e("Categories: "); ?></th>
+          <td>
+            <input type="text" name="sendgrid_categories" value="<?php echo $categories; ?>" size="20" class="regular-text">
+            <span><small><em><?php _e('Leave blank to send without categories.') ?></em></small></span>
+            <p class="description"><?php _e('Associates the category of the email this should be logged as. <br />
+            Categories must be separated by commas (Example: category1, category2).') ?></p>
+          </td>
+        </tr>
       </tbody>
     </table>
     <p class="submit">

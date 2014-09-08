@@ -251,6 +251,12 @@ if ( ! function_exists('wp_mail'))
          ->setCategory( SENDGRID_CATEGORY )
          ->setFrom( $from_email );
 
+    $categories = explode( ',', get_option('sendgrid_categories') );
+    foreach ($categories as $category)
+    {
+      $mail->addCategory($category);
+    }
+
     // send HTML content
 	  if ( 'text/plain' !== $content_type )
     {
