@@ -8,7 +8,7 @@ Stable tag: 1.4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Email Delivery. Simplified.
+Send emails throught Sendgrid from your WordPress installation using SMTP or API integration.
 
 == Description ==
 
@@ -133,6 +133,8 @@ Create a SendGrid account at <a href="http://sendgrid.com/partner/wordpress" tar
 * Added support to set additional categories
 = 1.4.2 =
 * Added SendGrid Statistics for the categories added in the SendGrid Settings Page
+= 1.4.3 =
+* Update plugin logo, description, screenshots on installation page
 
 == Upgrade notice ==
 
@@ -148,3 +150,5 @@ Create a SendGrid account at <a href="http://sendgrid.com/partner/wordpress" tar
 * Added support to set additional categories
 = 1.4.2 =
 * Added SendGrid Statistics for the categories added in the SendGrid Settings Page
+= 1.4.3 =
+* Update plugin logo, description, screenshots on installation page
