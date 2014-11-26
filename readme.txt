@@ -4,7 +4,7 @@ Donate link: http://sendgrid.com/
 Tags: email, email reliability, email templates, sendgrid, smtp, transactional email, wp_mail,email infrastructure, email marketing, marketing email, deliverability, email deliverability, email delivery, email server, mail server, email integration, cloud email
 Requires at least: 3.3
 Tested up to: 4.0
-Stable tag: 1.4.2
+Stable tag: 1.4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -135,6 +135,8 @@ Create a SendGrid account at <a href="http://sendgrid.com/partner/wordpress" tar
 * Added SendGrid Statistics for the categories added in the SendGrid Settings Page
 = 1.4.3 =
 * Update plugin logo, description, screenshots on installation page
+= 1.4.4 =
+* Fix unicode filename for icon-128x128.png image
 
 == Upgrade notice ==
 
@@ -152,3 +154,5 @@ Create a SendGrid account at <a href="http://sendgrid.com/partner/wordpress" tar
 * Added SendGrid Statistics for the categories added in the SendGrid Settings Page
 = 1.4.3 =
 * Update plugin logo, description, screenshots on installation page
+= 1.4.4 =
+* Fix unicode filename for icon-128x128.png image
