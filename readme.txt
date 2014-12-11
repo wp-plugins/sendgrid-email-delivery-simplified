@@ -109,49 +109,34 @@ Create a SendGrid account at <a href="http://sendgrid.com/partner/wordpress" tar
 
 = 1.4.5 =
 * Fix changelog order in readme file
-
 = 1.4.4 =
 * Fix unicode filename for icon-128x128.png image
-
 = 1.4.3 =
 * Update plugin logo, description, screenshots on installation page
-
 = 1.4.2 =
 * Added SendGrid Statistics for the categories added in the SendGrid Settings Page
-
 = 1.4.1 =
 * Added support to set additional categories
-
 = 1.4 =
 * Fix warnings for static method, add notice for php version < 5.3.0, refactor plugin code
-
 = 1.3.2 = 
 * Fix URL for loading image
-
 = 1.3.1 = 
 * Fixed reply-to to accept: "name <email@example.com>"
-
 = 1.3 =
 * Added support for WordPress 3.8, fixed visual issues for WordPress 3.7
-
 = 1.2.1 =
 * Fix errors: set_html_content_type error, WP_DEBUG enabled notice, Reply-To header is overwritten by default option
-
 = 1.2 =
 * Added statistics for emails sent through WordPress plugin
-
 = 1.1.3 =
 * Fix missing argument warning message
-
 = 1.1.2 =
 * Fix display for october charts
-
 = 1.1.1 =
 * Added default category on sending
-
 = 1.1 =
 * Added SendGrid Statistics 
-
 = 1.0 =
 * Fixed issue: Add error message when PHP-curl extension is not enabled.
 
@@ -159,27 +144,19 @@ Create a SendGrid account at <a href="http://sendgrid.com/partner/wordpress" tar
 
 = 1.4.5 =
 * Fix changelog order in readme file
-
 = 1.4.4 =
 * Fix unicode filename for icon-128x128.png image
-
 = 1.4.3 =
 * Update plugin logo, description, screenshots on installation page
-
 = 1.4.2 =
 * Added SendGrid Statistics for the categories added in the SendGrid Settings Page
-
 = 1.4.1 =
 * Added support to set additional categories
-
 = 1.4 =
 * Fix warnings for static method, add notice for php version < 5.3.0, refactor plugin code
-
 = 1.3 =
 * Added support for WordPress 3.8, fixed visual issues for WordPress 3.7
-
 = 1.2 =
 * Now you can switch between Sendgrid general statistics and Sendgrid WordPress statistics.
-
 = 1.1 =
 * SendGrid Statistics can be used by selecting the time interval for which you want to see your statistics.
